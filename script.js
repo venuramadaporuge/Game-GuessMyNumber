@@ -47,33 +47,6 @@ document.querySelector('.check').addEventListener('click', function () {
   }
 });
 
-//   //when the number is too high
-//   else if (guess > secretNumber) {
-//     if (score > 1) {
-//       document.querySelector('.message').textContent = '📈 Too high!';
-//       score--;
-//       document.querySelector('.score').textContent = score;
-
-//       //when the game is lost
-//     } else {
-//       document.querySelector('.message').textContent = '💥 You lost the game!';
-//       document.querySelector('.score').textContent = 0;
-//     }
-
-//     //when the number is too low
-//   } else if (guess < secretNumber) {
-//     if (score > 1) {
-//       document.querySelector('.message').textContent = '📉 Too low!';
-//       score--;
-//       document.querySelector('.score').textContent = score;
-
-//       //when the game is lost
-//     } else {
-//       document.querySelector('.message').textContent = '💥 You lost the game!';
-//       document.querySelector('.score').textContent = 0;
-//     }
-//   }
-
 document.querySelector('.again').addEventListener('click', function () {
   console.log('Again!');
 
